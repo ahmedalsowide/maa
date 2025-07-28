@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MA Accounting & Tax Service LLC</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="language-switch">
+      <button id="toggleLang">AR</button>
+    </div>
+
+    <div class="main-title-container">
+      <h1 class="main-title">
+        <span class="logo-diamond-inline"><span>MA</span></span>
+        Accounting & Tax Service LLC
+      </h1>
+    </div>
+
+    <p>Consulting Services for Small and Medium Businesses</p>
+  </header>
+
+  <main class="service-list">
+    <h2>Our Services</h2>
+    
+    <div class="service">
+      <button class="accordion">1. Accounting Services </button>
+      <div class="panel glass">
+        <p>•	Recording and Classifying Financial Transactions.<br>•	Preparing Financial Statements.<br>• Financial Statement Analysis.</p>
+         <img src="images/service1.jpg" alt="Accounting Services" class="service-image">
+      </div>
+    </div>
+
+    <div class="service">
+      <button class="accordion">2. Audit Services </button>
+      <div class="panel glass">
+        <p>• Financial Statement Audit.<br>•	Financial Transaction Audit. <br>•	Internal Control Evaluation.
+    </div>
+
+    <div class="service">
+      <button class="accordion">3. Payroll Services </button>
+      <div class="panel glass">
+        <p>•	Accurate payroll calculation and timely issuance of employee paychecks.<br>•	Preparation and filing of tax forms including W-2, 1099, and 941.<br>•	Labor Law Compliance.</p>
+      </div>
+    </div>
+
+    <div class="service">
+  <button class="accordion">4. Tax Services</button>
+  <div class="panel glass">
+    <p>
+      • Preparing and filing federal and state tax returns for individuals and businesses.<br>
+      • Providing tax consulting to minimize liabilities and optimize tax planning.
+    </p>
+  </div>
+</div>
+
+<div class="service">
+  <button class="accordion">5. Accounts Payable Services</button>
+  <div class="panel glass">
+    <p>
+      • Enter supplier invoices with correct dates, values, and taxes.<br>
+      • Deduct taxes for eligible vendor payments.<br>
+      • Match invoice with PO and receipt.<br>
+      • Set optimal payment dates to avoid late fees and get discounts.<br>
+      • File 1099 for non-employee vendors.<br>
+      • Key tools for managing accounts payable include accounting software (e.g., QuickBooks, Xero), workflow systems, and OCR technology for invoice processing.
+    </p>
+  </div>
+</div>
+
+<div class="service">
+  <button class="accordion">6. Accounts Receivable Services</button>
+  <div class="panel glass">
+    <p>
+      • Preparing and issuing invoices to customers based on sales or services rendered, sending them on time.<br>
+      • Ensuring correct application of sales tax (if applicable) on issued invoices.<br>
+      • Analyzing invoices based on aging periods (current, 30, 60, 90 days) to identify overdue amounts.<br>
+      • Handling returns, discounts, or any customer disputes.<br>
+      • Sending reminders and following up via calls or emails to collect overdue payments and improve collection cycles.<br>
+      • Preparing monthly or quarterly reports for tax authorities regarding collected sales tax.<br>
+      • Tools used include accounting software, billing systems, and CRM or collection tools for automated follow-up.
+    </p>
+  </div>
+</div>
+
+<div class="service">
+  <button class="accordion">7. Nonprofit Project Management</button>
+  <div class="panel glass">
+    <p>
+      • Using specialized accounting and administrative systems.
+    </p>
+  </div>
+</div>
+
+<div class="service">
+  <button class="accordion">8. Business Formation Support</button>
+  <div class="panel glass">
+    <p>
+      • Assisting with business registration, EIN acquisition, and obtaining necessary licenses to start operations.
+    </p>
+  </div>
+</div>
+
+<div class="service">
+  <button class="accordion">9. Financial Awareness and Education</button>
+  <div class="panel glass">
+    <p>
+      • Creating a Social Media Channel.<br>
+      • Publishing Educational Content.<br>
+      • Providing Tips and Consulting.
+    </p>
+  </div>
+</div>
+  </main>
+
+  <footer>
+    <p>© 2025 MA Accounting. All rights reserved.</p>
+  </footer>
+
+ <!-- Floating Contact Button -->
+<div class="contact-fab" id="contactFab">
+  <button id="fab-main"><span id="fab-label">📞 Contact Us</span></button>
+
+  <div class="fab-options" id="fab-options">
+    <div class="contact-info">
+      <p>📞 <strong>Phone:</strong> +123456789</p>
+      <p>✉️ <strong>Email:</strong> maataxservice@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Script Section -->
+  <script>
+    const translations = {
+      en: {
+        fabLabel: "📞 Contact Us",
+phoneLabel: "📞 Phone",
+emailLabel: "✉️ Email",
+        title: "MA Accounting",
+        subtitle: "Consulting Services for Small and Medium Businesses",
+        sectionTitle: "Our Services",
+        services:[
+  ["1. Accounting Services", "• Recording and Classifying Financial Transactions.<br>• Preparing Financial Statements.<br>• Financial Statement Analysis."],
+  ["2. Audit Services", "• Financial Statement Audit.<br>• Financial Transaction Audit.<br>• Internal Control Evaluation."],
+  ["3. Payroll Services", "• Accurate payroll calculation and timely issuance of employee paychecks.<br>• Preparation and filing of tax forms including W-2, 1099, and 941.<br>• Labor Law Compliance."],
+  ["4. Tax Services", "• Preparing and filing federal and state tax returns for individuals and businesses.<br>• Providing tax consulting to minimize liabilities and optimize tax planning."],
+  ["5. Accounts Payable Services", "• Enter supplier invoices with correct dates, values, and taxes.<br>• Deduct taxes for eligible vendor payments.<br>• Match invoice with PO and receipt.<br>• Set optimal payment dates to avoid late fees and get discounts.<br>• File 1099 for non-employee vendors.<br>• Key tools for managing accounts payable include accounting software (e.g., QuickBooks, Xero), workflow systems, and OCR technology for invoice processing."],
+  ["6. Accounts Receivable Services", "• Preparing and issuing invoices to customers based on sales or services rendered, sending them on time.<br>• Ensuring correct application of sales tax (if applicable) on issued invoices.<br>• Analyzing invoices based on aging periods (current, 30, 60, 90 days) to identify overdue amounts.<br>• Handling returns, discounts, or any customer disputes.<br>• Sending reminders and following up via calls or emails to collect overdue payments and improve collection cycles.<br>• Preparing monthly or quarterly reports for tax authorities regarding collected sales tax.<br>• Tools used include accounting software, billing systems, and CRM or collection tools for automated follow-up."],
+  ["7. Nonprofit Project Management", "• Using specialized accounting and administrative systems."],
+  ["8. Business Formation Support", "• Assisting with business registration, EIN acquisition, and obtaining necessary licenses to start operations."],
+  ["9. Financial Awareness and Education", "• Creating a Social Media Channel.<br>• Publishing Educational Content.<br>• Providing Tips and Consulting."]
+  
+]
+
+      },
+      ar: {
+        fabLabel: "📞 تواصل معنا",
+phoneLabel: "📞 رقم الهاتف",
+emailLabel: "✉️ البريد الإلكتروني",
+        title: "محاسبة MA",
+        subtitle: "خدمات الاستشارات للأعمال الصغيرة والمتوسطة",
+        sectionTitle: "خدماتنا",
+        services:[
+  ["١. خدمات المحاسبة", "• تسجيل وتصنيف المعاملات المالية.<br>• إعداد القوائم المالية.<br>• تحليل القوائم المالية."],
+  ["٢. خدمات المراجعة", "• مراجعة القوائم المالية.<br>• تدقيق العمليات المالية.<br>• تقييم نظام الرقابة الداخلية."],
+  ["٣. خدمات الرواتب", "• حساب الرواتب بدقة وإصدار شيكات الموظفين في الوقت المحدد.<br>• إعداد وتقديم نماذج الضرائب مثل W-2 و1099 و941.<br>• امتثال قوانين العمل."],
+  ["٤. الخدمات الضريبية", "• إعداد وتقديم إقرارات الضرائب الفيدرالية والولائية الشخصية والتجارية.<br>• تقديم الاستشارات الضريبية لتقليل الالتزامات وتحسين التخطيط الضريبي."],
+  ["٥. خدمات المحاسبة لحسابات الدائنين", "• إدخال فواتير الموردين بالتواريخ والقيم والضرائب الصحيحة.<br>• اقتطاع الضرائب من مدفوعات بعض الموردين حسب النظام.<br>• مطابقة الفاتورة مع أمر الشراء وإثبات الاستلام.<br>• تحديد مواعيد الدفع لتجنب الغرامات والاستفادة من الخصومات.<br>• تقديم نموذج 1099 للموردين غير الموظفين.<br>• تضمن الأدوات الرئيسية لإدارة الحسابات المستحقة الدفع: برامج المحاسبة (مثل QuickBooks وXero)، وأنظمة سير العمل، وتقنية التعرف الضوئي على الحروف (OCR) لمعالجة الفواتير."],
+  ["٦. خدمات المحاسبة لحسابات المدينين", "• إعداد الفواتير للعملاء بناءً على المبيعات أو الخدمات المقدمة، وإرسالها في الوقت المناسب.<br>• التأكد من إدراج ضريبة المبيعات (إن وجدت) على الفواتير الصادرة بشكل صحيح.<br>• تحليل الفواتير حسب مدة الاستحقاق: حالياً، 30، 60، 90 يوم لتحديد المتأخرات.<br>• معالجة المرتجعات، الخصومات، أو أي اعتراضات من العملاء.<br>• إرسال التذكيرات والمتابعة الهاتفية أو البريدية لتحصيل الدفعات المتأخرة وتحسين دورة التحصيل.<br>• تقديم تقارير شهرية أو ربع سنوية للسلطات الضريبية حول ضريبة المبيعات المحصلة.<br>• تشمل أدوات إدارة حسابات المدينين: برامج المحاسبة، وأنظمة إعداد الفواتير، وبرامج CRM أو أدوات التحصيل لمتابعة العملاء تلقائيًا."],
+  ["٧. إدارة المشاريع غير الربحية", "• استخدام أنظمة محاسبية وإدارية مصممة خصيصًا للمشاريع غير الربحية."],
+  ["٨. دعم تأسيس الأعمال", "• تقديم المساعدة في تسجيل الشركات، والحصول على EIN والتراخيص اللازمة لبدء العمل."],
+  ["٩. الوعي والتثقيف المالي", "• إنشاء قناة على مواقع التواصل الاجتماعي.<br>• نشر المحتوى التعليمي.<br>• تقديم النصائح والاستشارات."]
+]
+
+
+      }
+    };
+
+    const toggleLang = document.getElementById("toggleLang");
+    const subtitle = document.querySelector(".hero p");
+    const sectionTitle = document.querySelector(".service-list h2");
+    const serviceTitles = document.querySelectorAll(".accordion");
+    const servicePanels = document.querySelectorAll(".panel p");
+
+    let currentLang = "en";
+
+    toggleLang.addEventListener("click", () => {
+      currentLang = currentLang === "en" ? "ar" : "en";
+      const dir = currentLang === "ar" ? "rtl" : "ltr";
+      document.documentElement.lang = currentLang;
+      document.documentElement.dir = dir;
+      document.documentElement.classList.remove("ltr", "rtl");
+      document.documentElement.classList.add(dir);
+      toggleLang.textContent = currentLang === "ar" ? "EN" : "AR";
+      subtitle.textContent = translations[currentLang].subtitle;
+      document.getElementById("fab-label").textContent = translations[currentLang].fabLabel;
+document.querySelector(".contact-info p:nth-child(1)").innerHTML = `${translations[currentLang].phoneLabel}: +123456789`;
+document.querySelector(".contact-info p:nth-child(2)").innerHTML = `${translations[currentLang].emailLabel}: maataxservice@gmail.com`;
+      sectionTitle.textContent = translations[currentLang].sectionTitle;
+      serviceTitles.forEach((btn, i) => {
+        btn.innerHTML = translations[currentLang].services[i][0];
+        servicePanels[i].innerHTML = translations[currentLang].services[i][1];
+      });
+      updateFabPosition();
+    });
+
+    // Accordion behavior
+    document.querySelectorAll(".accordion").forEach(btn => {
+      btn.addEventListener("click", function() {
+        this.classList.toggle("active");
+        const panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    });
+
+    // Floating button behavior
+    const fabMain = document.getElementById("fab-main");
+    const fabOptions = document.getElementById("fab-options");
+    const contactFab = document.getElementById("contactFab");
+
+    fabMain.addEventListener("click", () => {
+      fabOptions.classList.toggle("show");
+    });
+
+    function updateFabPosition() {
+      const isRTL = document.documentElement.dir === "rtl";
+      contactFab.style.right = isRTL ? "auto" : "30px";
+      contactFab.style.left = isRTL ? "30px" : "auto";
+      fabOptions.style.right = isRTL ? "auto" : "0";
+      fabOptions.style.left = isRTL ? "0" : "auto";
+    }
+
+    updateFabPosition();
+  </script>
+</body>
+</html>  
